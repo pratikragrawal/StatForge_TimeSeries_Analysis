@@ -14,7 +14,7 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 # ------------------------------
 # 1. LOAD DATA
 # ------------------------------
-df = pd.read_csv("delhi_climate.csv")
+df = pd.read_csv("DATA/delhi_climate.csv")
 
 df['Date'] = pd.to_datetime(df['Date'], dayfirst=True)
 df = df.sort_values('Date')
@@ -80,9 +80,7 @@ plt.title("Temperature Distribution")
 plt.savefig("5_histogram.png")
 plt.close()
 
-# ------------------------------
-# 7. BOX PLOT
-# ------------------------------
+
 plt.figure()
 plt.boxplot(df['Temperature'])
 plt.title("Temperature Box Plot")
@@ -182,4 +180,4 @@ plt.close()
 forecast = df['Temperature'].tail(7).mean()
 print("\nNext Day Forecast:", round(forecast,2))
 
-print("\n✅ ALL GRAPHS SAVED IN PROJECT FOLDER")
+print("\n✅ ALL GRAPHS SAVED IN FOLDER")
