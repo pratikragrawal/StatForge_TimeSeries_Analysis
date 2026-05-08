@@ -3,7 +3,7 @@
 # ==========================================
 
 import matplotlib
-matplotlib.use('Agg')   # <-- ensures graphs save properly
+matplotlib.use('Agg')   
 
 import pandas as pd
 import numpy as np
@@ -180,4 +180,4 @@ plt.close()
 forecast = df['Temperature'].tail(7).mean()
 print("\nNext Day Forecast:", round(forecast,2))
 
-print("\n✅ ALL GRAPHS SAVED IN FOLDER")
+print("\n✅ ALL GRAPHS SAVED IN MAIN FOLDER")
