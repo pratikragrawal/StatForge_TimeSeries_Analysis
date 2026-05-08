@@ -99,7 +99,7 @@ plt.savefig("7_scatter.png")
 plt.close()
 
 # ------------------------------
-# 9. HEATMAP
+# 9. HEATMAP graph
 # ------------------------------
 plt.figure()
 sns.heatmap(df[['Temperature','AQI','Humidity']].corr(), annot=True)
@@ -108,7 +108,7 @@ plt.savefig("8_heatmap.png")
 plt.close()
 
 # ------------------------------
-# 10. TREND LINE (REGRESSION)
+# 10. TREND LINE (REGRESSION) graph
 # ------------------------------
 x = np.arange(len(df))
 y = df['Temperature']
@@ -145,7 +145,7 @@ plt.savefig("11_rolling_corr.png")
 plt.close()
 
 # ------------------------------
-# 13. CUMULATIVE SUM
+# 13. CUMULATIVE SUM 
 # ------------------------------
 df['Temp_CumSum'] = df['Temperature'].cumsum()
 
