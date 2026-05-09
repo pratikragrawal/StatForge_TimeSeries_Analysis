@@ -156,7 +156,7 @@ plt.savefig("12_cumsum.png")
 plt.close()
 
 # ------------------------------
-# 14. OUTLIER DETECTION
+# 14. OUTLIER DETECTION FORMULA
 # ------------------------------
 mean = df['Temperature'].mean()
 std = df['Temperature'].std()

@@ -25,6 +25,7 @@ The goal is to extract meaningful insights such as trends, relationships, and an
 - Matplotlib  
 - Seaborn  
 - Statsmodels  
+- Tupples
 
 ---
 
