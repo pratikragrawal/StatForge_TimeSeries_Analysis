@@ -75,7 +75,7 @@ plt.close()
 # 6. HISTOGRAM
 # ------------------------------
 plt.figure()
-plt.hist(df['Temperature'])
+plt.hist(df[''])
 plt.title("Temperature Distribution")
 plt.savefig("5_histogram.png")
 plt.close()
