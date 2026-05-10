@@ -123,7 +123,7 @@ plt.savefig("9_trendline.png")
 plt.close()
 
 # ------------------------------
-# 11. DAILY CHANGE
+# 11. DAILY CHANGE GRAPH
 # ------------------------------
 df['Temp_Change'] = df['Temperature'].diff()
 
@@ -180,4 +180,4 @@ plt.close()
 forecast = df['Temperature'].tail(7).mean()
 print("\nNext Day Forecast:", round(forecast,2))
 
-print("\n✅ ALL GRAPHS SAVED IN MAIN FOLDER")
+print("\n✅ ")
