@@ -180,4 +180,4 @@ plt.close()
 forecast = df['Temperature'].tail(7).mean()
 print("\nNext Day Forecast:", round(forecast,2))
 
-print("\n✅ ")
+print("\n✅ ALL GRAPHS SAVED IN MAIN FOLDER")
